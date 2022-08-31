@@ -1,0 +1,26 @@
+[$Version]
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id
+
+[Compositing]
+OpenGLIsUnsafe=false
+
+[Desktops]
+Id_1=7dcec8a6-7e65-4579-a864-fd21b32ced7e
+Id_2=70815672-2f8b-4eef-9558-b0de1942f07b
+Number=2
+Rows=1
+
+[ModifierOnlyShortcuts]
+Meta=org.kde.kglobalaccel,/component/khotkeys,,invokeShortcut,{468686d6-7a08-4ec9-a150-8ef4c24f2e63}
+
+[SubSession: 7177dc43-faa3-4418-9d9e-3d3c17115c8c]
+active=-1
+count=0
+
+[SubSession: 8d7eba75-1112-4867-97b3-d0b6ac54e216]
+active=-1
+count=0
+
+[SubSession: c4da410e-53b6-4c9f-b664-38cc856d0613]
+active=-1
+count=0

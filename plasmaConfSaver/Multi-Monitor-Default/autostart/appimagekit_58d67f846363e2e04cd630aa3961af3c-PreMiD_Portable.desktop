@@ -1,0 +1,22 @@
+[Desktop Action Remove]
+Exec=/usr/lib/appimagelauncher/remove "/home/faith/Applications/PreMiD-Portable_2e07fe0d5631c868e883c002706006e8.AppImage"
+Icon=AppImageLauncher
+Name[en_CA]=Remove AppImage from system
+Name=Remove AppImage from system
+
+[Desktop Entry]
+Actions=Remove;
+Categories=Utility;
+Comment=Discord Rich Presence for web services
+Exec=/home/faith/Applications/PreMiD-Portable_2e07fe0d5631c868e883c002706006e8.AppImage
+Icon=appimagekit_58d67f846363e2e04cd630aa3961af3c_premid
+Name=PreMiD Portable (2.3.2)
+StartupWMClass=PreMiD Portable
+Terminal=false
+TryExec=/home/faith/Applications/PreMiD-Portable_2e07fe0d5631c868e883c002706006e8.AppImage
+Type=Application
+X-AppImage-Identifier=58d67f846363e2e04cd630aa3961af3c
+X-AppImage-Old-Icon=premid
+X-AppImage-Old-Name=PreMiD Portable
+X-AppImage-Version=2.3.2
+X-AppImageLauncher-Version=2.2.0 (git commit 0f91801), built on 2022-05-29 15:58:36 UTC

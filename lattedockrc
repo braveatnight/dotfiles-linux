@@ -1,0 +1,45 @@
+[FileDialogSize]
+DP-1-0 eDP-1 Height 2560x1440=600
+DP-1-0 eDP-1 Width 2560x1440=980
+
+[KFileDialog Settings]
+Recent Files[$e]=U5WnliB.png,file:$HOME/Pictures/Icons and Profile Pictures/eJm.svg,file:$HOME/Pictures/Wallpapers/U5WnliB.png
+Recent URLs[$e]=file:$HOME/Pictures/Wallpapers/,file:$HOME/Pictures/Icons and Profile Pictures/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+DP-1-0 eDP-1 Height 2560x1440=458
+DP-1-0 eDP-1 Width 2560x1440=404
+
+[LatteSettingsDialog]
+downloadWindowSize=980,600
+windowSize=1100,750
+
+[LatteSettingsDialog][TabLayouts]
+columnWidths=49,508,129,104
+sortColumn=3
+sortOrder=0
+
+[PlasmaThemeExtended]
+outlineWidth=1
+
+[ScreenConnectors]
+10=DP-1-0:::0,0 2560x1440
+11=eDP-1:::2560,360 1920x1080
+12=HDMI-1-0:::0,0 1920x1080
+
+[UniversalSettings]
+badges3DStyle=false
+canDisableBorders=false
+contextMenuActionsAlwaysShown=_layouts,_preferences,_quit_latte,_separator1,_add_latte_widgets,_add_view
+inAdvancedModeForEditSettings=true
+isAvailableGeometryBroadcastedToPlasma=true
+launchers=
+memoryUsage=0
+metaPressAndHoldEnabled=true
+mouseSensitivity=2
+screenTrackerInterval=2500
+showInfoWindow=true
+singleModeLayoutName=Plasma
+userConfiguredAutostart=true
+version=2

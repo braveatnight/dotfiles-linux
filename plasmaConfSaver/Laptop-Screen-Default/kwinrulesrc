@@ -1,0 +1,30 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Firefox No Border
+clientmachine=localhost
+noborder=true
+noborderrule=3
+title=KDE Plasma border remove : kde — Mozilla Firefox
+types=1
+windowrole=browser
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=1
+rules=1
+
+[bc318677-0160-48cd-a63b-20009a23bfca]
+Description=Firefox No Border
+clientmachine=localhost
+noborder=true
+noborderrule=3
+title=KDE Plasma border remove : kde — Mozilla Firefox
+types=1
+windowrole=browser
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
