@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+if (($EUID != 0)); then
+  if [[ -t 1 ]]; then
+    sudo "$0" "$@"
+  else
+    exec 1>output_file
+    gksu "$0 $@"
+  fi
+  exit
+fi
+
+echo "Beginning system backup" | lolcat
+
+if grep -qs '/run/media/faith/timeshift/ ' /proc/mounts; then
+    echo "It's mounted." | lolcat
+else
+    echo "Mounting" | lolcat
+    sudo mount -U 588516bd-6eba-43c6-83ca-7eb558fbae6a /run/media/faith/
+fi
+
+echo "Drive mounted! Beginning sync!" | lolcat
+sudo rsync -a --info=progress2 --exclude="lost+found" --exclude=".cache" $HOME /run/media/faith/timeshift/rsync-home/ | lolcat
