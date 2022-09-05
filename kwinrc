@@ -24,3 +24,8 @@ count=0
 [SubSession: c4da410e-53b6-4c9f-b664-38cc856d0613]
 active=-1
 count=0
+
+[org.kde.kdecoration2]
+ButtonsOnLeft=M
+library=org.kde.breeze
+theme=Breeze
